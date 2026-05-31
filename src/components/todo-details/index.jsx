@@ -1,6 +1,5 @@
 import { Button, Dialog, DialogTitle, DialogActions } from "@mui/material";
 import { Fragment } from "react";
-import style from "./styles.module.css"
 
 export default function TodoDetails({
     todoDetails, openDialog, setOpenDialog, setTodoDetails
