@@ -11,3 +11,16 @@
    gap: 15px;
    grid-template-columns: repeat(4, 1fr);
 }
+.closeButton {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.closeButton:hover {
+  background-color: #dc2626;
+}
