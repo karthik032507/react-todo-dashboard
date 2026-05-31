@@ -9,7 +9,7 @@ export default function TodoDetails({
         <Dialog onClose={()=>setOpenDialog(false)}   open={openDialog}>
             <DialogTitle>{todoDetails?.todo}</DialogTitle>
             <DialogActions>
-                <button className = {style.close-btn} onClick={()=>{
+                <button  onClick={()=>{
                     setTodoDetails(null);
                     setOpenDialog(false);
                 }}>Close</button>
